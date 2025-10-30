@@ -1,12 +1,14 @@
-
 {
   "name": "create-express-app-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to quickly scaffold a new Express app with JS or TS setup.",
   "main": "index.js",
-  "scripts": { "start": "node src/app.js" },
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "bin": {
-    "create-express-app": "bin/index.js"
+    "create-express-app": "bin/index.js",
+    "create-express-app-cli": "bin/index.js"
   },
   "type": "module",
   "keywords": [
@@ -17,10 +19,11 @@
     "typecript",
     "javascript"
   ],
-  "url":"https://github.com/AamirMajeed570/express-cli.git",
+  "url": "https://github.com/AamirMajeed570/express-cli.git",
   "author": "Aamir Majeed Khan",
   "license": "MIT",
   "dependencies": {
+    "fs-extra": "^11.3.2",
     "inquirer": "^12.10.0"
   }
 }
