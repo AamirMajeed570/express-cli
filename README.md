@@ -32,7 +32,10 @@ You can use **npx** (recommended) or install it globally.
 
 ### Using `npx` (no installation needed)
 ```bash
-npx create-express-app-cli my-app
+npm i -g create-express-app-cli
+
+Run command create-express-app
+or run create-express-app-cli
 
 🧰 Usage
 ? What is your project name? › my-app
