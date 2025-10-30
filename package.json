@@ -17,6 +17,7 @@
     "typecript",
     "javascript"
   ],
+  "url":"https://github.com/AamirMajeed570/express-cli.git",
   "author": "Aamir Majeed Khan",
   "license": "MIT",
   "dependencies": {
