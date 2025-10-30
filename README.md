@@ -3,6 +3,13 @@
 
 A lightweight and powerful CLI tool to quickly scaffold a modern **Express.js** application — in **JavaScript** or **TypeScript** — with one simple command.
 
+Steps for Using the package.
+Just install the package using the command
+npm i -g create-express-app-cli
+Then run the command.
+create-express-app or
+create-express-app-cli
+
 Forget the manual setup!  
 Just run a single command and get a complete Express app structure ready to go.
 
